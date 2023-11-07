@@ -1,0 +1,5 @@
+age=int(input("enter age"))
+if age<=15:
+    print("you are teenager")
+else:
+    print("you are younger")
