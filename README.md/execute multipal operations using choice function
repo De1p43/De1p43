@@ -1,0 +1,16 @@
+choice=int(input("select 1 for add,2 for sub,3 for mul,4 for div"))
+x=int(input("enter first number"))
+y=int(input("enter second number"))
+if choice==1:
+    x+=y
+    print(x)
+elif choice==2:
+    x-=y
+    print(y)
+elif choice==3:
+    x*=y
+    print(x)
+elif choice==4:
+    x/=y
+    print(x)
+    
