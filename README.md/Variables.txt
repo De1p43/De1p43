@@ -1,0 +1,9 @@
+#x is variable and it is used for taking inputs fron the user
+x=int(input("enter first number"))
+#y is second variable and it is used for taking another inputs fron the user
+y=int(input("enter second number"))
+'''for addition we are using (+) operato
+  c is used for store the variable in it'''
+c=x+y
+#print is used for display otput
+print(c)
