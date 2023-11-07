@@ -1,0 +1,5 @@
+x=int(input("enter first number"))
+y=int(input("enter second number"))
+print("numbers befor swapping",x,y)
+x,y=y,x
+print("numbers after swapping",x,y)
