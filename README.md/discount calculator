@@ -1,0 +1,4 @@
+prize=int(input("enter the prize"))
+discount=int(input("enter the discount"))
+FP=prize-(discount/100)*prize
+print("final prize is",FP)
