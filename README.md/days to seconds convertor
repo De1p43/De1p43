@@ -1,0 +1,4 @@
+x=int(input("enter the days"))
+c=60*60*24
+sec=c*x
+print(sec)
