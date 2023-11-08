@@ -1,0 +1,10 @@
+choice=int(input("select 1 for IND to USA,2 for USA to IND"))
+amount=int(input("enter the amount"))
+if choice==1:
+    x=amount/80
+    print(amount,"rupees convert into USA is dollar",x)
+elif choice==2:
+    y=amount*80
+    print(amount,"dollar convert into IND is rupees",y)
+else:
+    print("select valid choice")
