@@ -1,0 +1,5 @@
+x=int(input("enter the age"))
+day=60*60*24
+year=day*366
+sec= year*x
+print(sec)
