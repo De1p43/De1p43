@@ -1,0 +1,18 @@
+x=int(input("enter the number"))
+i=10
+while i>=1:
+    c=i*x
+    
+    
+    
+    if c%2==0:
+        print("even number is",c)
+    else:
+        print(" ")
+    i-=1
+    
+    
+    
+    
+    
+    
