@@ -1,0 +1,12 @@
+x=int(input("enter year"))
+y=int(input("enter number"))
+c=x+y
+while x<=c:
+    
+    #print(x)
+    if x%4==0:
+        print("leap year",x)
+    else:
+        print(" ")
+    x+=1
+
