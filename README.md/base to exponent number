@@ -1,0 +1,9 @@
+b=int(input("enter base number"))
+e=int(input("enter exponent number"))
+
+result = 1
+
+while e != 0:
+    result *= b
+    e-=1
+    print(result)
