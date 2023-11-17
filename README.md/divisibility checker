@@ -1,0 +1,6 @@
+firstnum=int(input("enter the number"))
+secondnum=int(input("enter the number"))
+if firstnum%secondnum==0:
+    print("number is divisible by second num")
+else:
+    print("number is not divisible by second num")
