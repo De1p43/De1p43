@@ -1,0 +1,13 @@
+x=int(input("1st number"))
+y=int(input("2nd number"))
+z=int(input("3rd number"))
+if x>y and x>z:
+    print("greatest num is:",x)
+    
+elif y>x and y>z:
+    print("greatest num is",y)
+elif z>x and z>y:
+    
+    print("greatest num is:",z)
+else:
+    print("num is same",x)
