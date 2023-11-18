@@ -1,0 +1,21 @@
+x=int(input("enter one number"))
+
+y=int(input("enter last number"))
+sum=0
+if x>y:
+    x,y=y,x
+while x<=y:
+    if x%2==0:
+        sum+=x
+    x+=1
+    print(sum)
+    
+        
+
+    
+        
+    
+    
+    
+   
+    
