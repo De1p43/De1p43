@@ -1,0 +1,52 @@
+#varible
+
+# it is used for variable we cannot start variable with numbers there are types of variable like integer,float,string,boolean
+a=1#a is variable 1 is integer
+b=2.5#b is variable 2.5 is float number
+c="python"#c is variable ("")we can define string
+d=0#d is variable 0 or 1is boolean value
+#swapping
+a,b=b,a#, is used for swapping of two numbers
+#operators
++#is used for adding two numbers
+-#used for subtract two numbers
+*#used for multiplied two number
+%#use for divition of two numbers
+/#use for module of two numbers
+#assignment operator
++=#is used for adding two numbers
+-=#used for subtract two numbers
+*=#used for multiplied two number
+%=#use for divition of two numbers
+/=#use for module of two numbers
+#if else
+#it is used for give condition
+h=10#h is variable 10 is integer 
+c=65#c is variable 65 is integer
+if h>c:#we wre give condition in if statement
+    print("h")
+else:#we are give else condition for if condition is wrong then else condition work
+    print(c)
+    
+#if elif else
+#it is used for give multipal condition
+if:#first we give condition in if
+    print()
+elif:#elif is used for if condition is wrong then elif condition work
+    print():
+else:#else is use if and elif condition wrong then else condition work
+#function
+def function_name():#def is used for give function name
+    print()
+function_name()#for calling function we write function name in last
+#while loop
+while(i<+5):#while is loop where we give condition
+    i+=1#(+=)operator is used for increse the number
+#for loop
+for i in range(1,10):#in for loop we directli define i as variable and give range of number
+    print(i)#print(i) is used for dispay number
+continue#is used for if condition is true then continue the output
+break#is used for break the condition
+    
+    
+
