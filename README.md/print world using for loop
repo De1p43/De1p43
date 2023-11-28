@@ -1,0 +1,7 @@
+ch=65
+str="india"
+len=len(str)
+for i in range(0,len):
+    for j in range(0,i+1):
+        print(chr(str[j]),end=" ")
+    print()
