@@ -1,0 +1,20 @@
+str=input("enter string pls:")
+i=0
+for j in str:
+    i=i+1
+print(i)
+
+
+
+x=input("first string :")
+for i in x:
+    print(i)
+
+
+x=input("first string :")
+i=0
+for i in x:
+    print(i)
+
+x=input("first string")
+print(len(x))
