@@ -1,0 +1,12 @@
+v1={34,'jay',8.9}
+v={1,'amay',2.5,1,2.5}
+v.add(25)
+print(v)
+v1.update(v)
+print(v1)
+v.pop()
+print(v)
+v.remove('amay')
+print(v)
+v.clear()
+print(v)
