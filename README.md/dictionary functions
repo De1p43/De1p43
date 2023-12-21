@@ -1,0 +1,38 @@
+hisdict={"brand":"bgmi","model":"pagani","year":2023}
+thisdict["color"]="green"
+
+#display type
+print(type(thisdict))
+
+#display dictionary
+print(thisdict)
+
+#display perticular key value
+print(thisdict["model"])
+
+#display length of dictionary
+print(len(thisdict))
+
+#display updated dictionary
+print(thisdict)
+
+#delete  perticular key and value
+thisdict.pop("brand")
+print(thisdict)
+
+#display values name
+for x in thisdict:
+    print(thisdict[x])
+
+#display keys name
+for x in thisdict.keys ():
+    print(x)
+
+#display values name
+for x in thisdict.values():
+    print(x)
+
+#display key and value names
+for x,y in thisdict.items():
+    print(x,y)
+
