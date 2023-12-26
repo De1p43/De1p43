@@ -1,0 +1,8 @@
+m=[]
+for i in range(1,5):
+    h=int(input("enter the value :"))
+    m.append(h)
+#print(m)
+c=set(m)
+print(c)
+print(len(c))
