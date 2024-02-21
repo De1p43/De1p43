@@ -1,0 +1,8 @@
+class abc:
+    def add(self):
+        a=20
+        b=70
+        c=a+b
+        print(c)
+a=abc()
+a.add()
