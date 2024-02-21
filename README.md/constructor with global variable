@@ -1,0 +1,11 @@
+class abc:
+    def __init__(self,a,b):  <=constructor
+        self.a=a   #global variable
+        self.b=b
+        
+    def add(self):
+        c=self.a+self.b  #local variable
+        return c
+a=abc(50,25)
+d=a.add()
+print(d)     
