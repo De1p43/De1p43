@@ -1,0 +1,37 @@
+class abc:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+        
+    def add(self):
+        c=self.a+self.b
+        return c
+    
+class xyz(abc):
+    def sub(self,a,b):
+        if a>b:
+            d=a-b
+            return d
+        else:
+            d=b-a
+            return d
+            
+class mno:
+    def div(self,a,b):
+        c=a/b
+        return c
+
+class pqr(xyz,mno):
+    def mul(self,a,b):
+        e=a*b
+        return e
+        
+a=pqr(90,85)
+b=a.add()
+print('addition is',b)
+c=a.sub(50,150)
+print('suntraction is',c)
+d=a.div(40,2)
+print('divition is',d)
+f=a.mul(21,7)
+print('multiplication is',f)
