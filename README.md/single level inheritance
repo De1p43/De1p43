@@ -1,0 +1,23 @@
+class abc:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+        
+    def add(self):
+        c=self.a+self.b
+        return c
+    
+class xyz(abc):
+    def sub(self,a,b):
+        if a>b:
+            d=a-b
+            return d
+        else:
+            d=b-a
+            return d
+        
+a=xyz(90,85)
+b=a.add()
+print('addition is',b)
+c=a.sub(50,150)
+print('subtraction is',c)
