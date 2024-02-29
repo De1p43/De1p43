@@ -1,0 +1,17 @@
+class abc:
+    def sub(self,a,b):
+        x=lambda :a-b
+        return x()
+
+class pqr(abc):
+    def mul(self,a,b):
+        c=lambda:a*b
+        return c()
+        
+
+
+a=pqr()
+c=a.sub(800,568)
+print(c)
+m=a.mul(11,8)
+print(m)
