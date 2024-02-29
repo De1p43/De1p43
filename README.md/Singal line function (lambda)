@@ -1,0 +1,29 @@
+x=lambda b,c:b+c
+print(x(10,40))
+
+def add():
+    a=lambda b,k:b+k
+    print(a(109,45))
+add()
+
+def add(a,b):
+    d=lambda :a+b
+    print(d())
+add(40,60)
+
+def add():
+    a=lambda b,k:b+k
+    return a(119,45)
+add()
+
+def add(a,b):
+    d=lambda :a+b
+    return d()
+add(40,60)
+
+for i in range(1,4):
+    for j in range(1,11):
+        a=lambda i,j:i*j
+        print(a(i,j))
+ 
+
