@@ -1,0 +1,27 @@
+fruit={"apple","mango","watermelon","orange"}
+game={"BGMI","CAR RACING","CARDS"}
+print(fruit)
+fruit.add("lichi")
+print(fruit)
+fruit.remove("watermelon")
+print(fruit)
+fruit.pop()
+print(fruit)
+fruit.update(game)
+print(fruit)
+
+
+x={"game :":"bgmi","outfit :":"forest elfe","year :":2018,"car :":"tesla"}
+print(x)
+print(x["car :"])
+x.pop("car :")
+print(x)
+'''for y in x.keys():
+    print(y)
+    
+for j in x.values():
+    print(j)'''
+    
+for y,j in x.items():
+    print(y,j)
+    
