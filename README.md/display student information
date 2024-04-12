@@ -1,0 +1,13 @@
+class student:
+    def __init__(self,name,roll,branch):
+        self.name=name
+        self.roll=roll
+        self.branch=branch
+    
+    def display(self):
+        print("name is : {}".format(self.name))
+        print("roll no. is :{}".format(self.roll))
+        print("branch is :{}".format(self.branch))
+
+s=student("Ashok",22,"Civil")
+print(s.display())
