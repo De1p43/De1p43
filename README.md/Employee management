@@ -1,0 +1,21 @@
+class Person:
+    
+        
+   
+        
+class Employee(Person):
+    def __init__(self,name,age,salary):
+        self.name=name
+        self.age=age
+        self.salary=salary
+        
+    def display1(self):
+        print("name is {}".format(self.name))
+        print("age is {}".format(self.age))
+        print("salary is {}".format(self.salary))
+        
+e=Employee("jay",18,35000)
+c=e.display1()
+print(c)
+        
+        
