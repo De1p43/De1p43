@@ -1,0 +1,17 @@
+x=float(input("enter the height in meters"))
+y=int(input("enter the weight"))
+h=x*x
+print(h)
+def w():
+    w=y/h
+    print("your body mass is :",w)
+    
+    if w<=18.5:
+        print("you are weak")
+    elif  w<=24.9:
+        print("you are fit")
+    elif w<=29.9:
+        print("please do a weight loss")
+    else:
+        pass
+w()
