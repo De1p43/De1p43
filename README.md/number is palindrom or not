@@ -1,0 +1,13 @@
+n=5688
+rev=0
+while n!=0:
+    num=n%10
+    rev=rev*10+num
+    n//=10
+    
+    print(f"reverse is: {rev}")
+    
+    if rev==n:
+        print("num is palindrom")
+    else:
+        print("num is not palindrom")
