@@ -1,0 +1,8 @@
+x = int(input('Enter a Number '))
+fact = 1
+if x==0 or x==1:
+    print('factorial 1')
+else:
+    for i in range(x,0,-1):
+        fact  = fact*i
+    print('the factorial of number is ',fact)
