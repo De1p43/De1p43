@@ -1,0 +1,17 @@
+f=open("abc.x","w")
+f=open("abc.y","w")
+x=input("enter first line")
+y=input("enter second line")
+
+f.write(x,)
+
+f.write(y)
+f.close()
+
+f=open("abc.x","r")
+
+f=open("abc.y","r")
+d=f.read()
+    
+print(d)
+f.close()
