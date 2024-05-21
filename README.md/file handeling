@@ -1,0 +1,9 @@
+f=open("abc.txt","w")
+txt="hello i am deep"
+f.write(txt)
+f.close()
+
+f=open("abc.txt","r")
+c=f.read()
+print(c)
+f.close()
