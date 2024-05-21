@@ -1,0 +1,10 @@
+f=open("abc.x","w")
+x=input("enter text")
+
+f.write(x)
+f.close()
+
+f=open("abc.x","r")
+d=f.read()
+print(d)
+f.close()
