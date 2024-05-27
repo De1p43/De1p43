@@ -1,0 +1,11 @@
+f=open("abc.m","w")
+m="My name deep"
+f.write(m)
+f.close()
+
+f=open("abc.m","r")
+c=f.read(10)
+print(c)
+f.close()
+
+
