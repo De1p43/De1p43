@@ -1,0 +1,13 @@
+import os
+os.mkdir("bcd.txt")
+
+f=open("bcd.txt","w")
+txt="hello"
+f.write(txt)
+f.close()
+
+f=open("bcd.txt","r")
+c=f.read()
+print(c)
+f.close()
+os.remove("bcd.txt")
